@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+*{
+    box-sizing: border-box;
+    border: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+  }
+
+body{
+  
+    background-image: url(./assets/main.png);
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+   
+    width: 100%;
+    height: 100%;
+    
+}
+header{
+    font-family: 'Fugaz One', cursive;
+    text-shadow: aliceblue;
+    color: rgb(74, 80, 95);
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    font-size: large;
+
+    
+}
+
+
+ .content1{
+    position: absolute;
+     top: 250px;
+     left: 100px;
+font-family: 'Girassol', cursive;
+font-family: 'Abril Fatface', cursive;
+font-family: 'Fira Sans', sans-serif;
+color: rgb(74, 80, 95);
+ }
+ .join{
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: whitesmoke;
+    background-color: rgba(46, 133, 155, 0.979);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 28%;
+ }
+ .join:hover {background-color: rgb(46, 93, 223);}
+ 
+.create{
+    font-size: 20px;
+    background-color: rgba(46, 133, 155, 0.979);
+    padding:15px;
+    text-align: center;
+    color: whitesmoke;
+    border-radius: 15px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.create:hover{background-color: rgb(46, 93, 223);}
+p{
+    font-size: medium;
+    color: rgb(74, 80, 95);
+}
